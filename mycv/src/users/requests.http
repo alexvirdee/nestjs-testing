@@ -14,12 +14,12 @@ GET http://localhost:3000/auth/2
 GET http://localhost:3000/auth/?email=test@test.com
 
 ### Delete a user given an id
-DELETE http://localhost:3000/auth/1
+DELETE http://localhost:3000/auth/11231321
 
 ### Update a user
 PATCH http://localhost:3000/auth/2
 content-type: application/json
 
 {
-    "password": "test"
+    "email": "test@test.com"
 }
